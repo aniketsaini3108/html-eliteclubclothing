@@ -153,7 +153,7 @@ margin-right: 25%;
       }
  @media (max-width: 1200px) {
         body {
-          background-image: url(images/mainback.jpeg); 
+          background-image: url(mainback.jpeg); 
         }
         .men-link{
           position: absolute;
@@ -170,7 +170,7 @@ margin-right: 25%;
  }
  @media (max-width: 1600px) {
   body {
-    background-image: url(images/mainback.jpeg); 
+    background-image: url(mainback.jpeg); 
   }
   
   .men-link{
