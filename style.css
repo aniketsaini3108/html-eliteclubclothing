@@ -1,0 +1,188 @@
+main {
+  flex: 1;
+}
+h1{
+  font-size: 2rem;
+}
+.logo img{
+    width: 20%;
+    height: 25%;
+    margin-left: 40%;
+    margin-bottom: 0%;
+  
+    text-align: center;
+}
+.logo h1{
+    text-align: center;
+    color:navajowhite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tagline{
+  color:rgb(233, 218, 122);
+ font-family: 'Fasthand', cursive;
+ text-align: center;
+ margin-top: 0%;
+ text-decoration: solid;
+}
+.style{
+    color:brown;
+   
+}
+.mencategories-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+.womencategories-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+
+body {
+    /* Location of the image */
+    background-image: url(mainback.jpeg);
+    
+    /* Image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Image doesn't repeat */
+    background-repeat: no-repeat;
+    
+    /* Makes the image fixed in the viewport so that it doesn't move when 
+       the content height is greater than the image height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based on its container's size */
+    background-size: cover;
+    
+    /* Pick a solid background color that will be displayed while the background image is loading */
+    background-color:#464646;
+    
+    /* SHORTHAND CSS NOTATION
+     * background: url(background-photo.jpg) center center cover no-repeat fixed;
+     */
+}
+.mencategories{
+
+  height:200px;
+  width:200px;
+
+background-image: url(roadsterback.jpeg);
+background-size: cover;
+margin-left: 10%
+
+}
+.womencategories{
+
+  height:200px;
+  width:200px;
+
+background-image: url(women.jpeg);
+background-size: cover;
+margin-left: 60%;
+margin-top: 12%;
+margin-bottom: 2%;
+margin-right: 25%;
+
+}
+.men-link{
+  position: absolute;
+  text-align: right;
+  margin-left: 50%;
+  margin-top: 10%;
+  margin-bottom: 8%;
+}
+.women-link{
+  position: absolute;
+  text-align: left;
+  margin-left: 15%;
+  margin-top: 15%;
+  margin-bottom: 8%;
+}
+
+@media (max-width: 600px) {
+    body {
+     
+      background-image: url(mainback.jpeg);
+    }
+
+    .tagline{ 
+        height: 10%;
+    }
+ 
+    .womencategories{
+
+      height:200px;
+      width:200px;
+    
+    background-image: url(women.jpeg);
+    background-size: cover;
+    margin-left: 60%;
+    margin-top: 12%;
+    margin-bottom: 2%;
+    margin-right: 25%;
+    
+    }
+    .men-link{
+      position: absolute;
+      text-align: right;
+      margin-left: 50%;
+      margin-top: 8%;
+      margin-bottom: 8%;
+    }
+    .women-link{
+      position: absolute;
+      text-align: left;
+      margin-left: 15%;
+      margin-top: 8%;
+      margin-bottom: 8%;
+    }
+    .foot {
+      text-align: right;
+      color: rgb(233, 218, 122);
+    }
+    
+
+
+
+
+
+
+      }
+ @media (max-width: 1200px) {
+        body {
+          background-image: url(images/mainback.jpeg); 
+        }
+        .men-link{
+          position: absolute;
+          text-align: right;
+          margin-left: 50%;
+          margin-top: 4%;
+          margin-bottom: 8%;
+        }
+        .foot {
+          text-align: right;
+          color: rgb(169, 181, 5);
+        }
+    
+ }
+ @media (max-width: 1600px) {
+  body {
+    background-image: url(images/mainback.jpeg); 
+  }
+  
+  .men-link{
+    position: absolute;
+    text-align: right;
+    margin-left: 50%;
+    margin-top: 4%;
+    margin-bottom: 8%;
+  }
+  .foot {
+    text-align: right;
+    color: rgb(233, 245, 8);
+  }
+
+}
